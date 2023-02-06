@@ -2,16 +2,11 @@
 
 const resume_button = document.getElementById("resume-link");
 resume_button.addEventListener("click", function () { 
-  console.log('clicked')
-  // var pdf =  "resume_yitong_2023.pdf";
-  // var pdf = "file:///C:/Users/thoma/OneDrive%20-%20UBC/Desktop/profile_web/vcard-personal-portfolio/resume_yitong_2023.pdf"
-
   var arr = window.location.href.split("/");
   delete arr[arr.length - 1]; 
   var pdf = arr.join("/"); 
   pdf += "resume_yitong_2023.pdf"
   console.log('pdf', pdf)
-    // loginUrl = window.location.origin+"/Login.appx?ReturnUrl=" + parentUrl;
 
   window.open(pdf);
 });
