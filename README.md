@@ -1,4 +1,4 @@
-# vCard - Personal portfolio
+# Personal portfolio
 
 
 vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
@@ -30,9 +30,6 @@ Windows:
 git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
 ```
 
-## Contact
-
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
 
 ## License
 
